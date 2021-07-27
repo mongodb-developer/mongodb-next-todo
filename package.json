@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mongodb": "^3.5.9",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.6"
+  },
+  "name": "atlas_demo",
+  "description": "- Be sure to sign up for a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) account\r - After cloning this repo, from the terminal run: `npm install`\r - Rename `.env.local.example` to `.env.local`\r - Enter your MONGODB_URI and MONGODB_DB in `.env.local`\r   - From your Atlas Dashboard under Databases, click \"Connect\"\r   ![Step 1](/readme_img/1.png)\r   - Then select \"Connect your application\"\r   ![Step 2](/readme_img/2.png)\r   - Now copy your connection string. This is the MONGODB_URI\r   ![Step 3](/readme_img/3.png)\r   - For the MONGODB_DB you can use \"todo\", but you can also name it whatever you want.\r - Run `npm run dev`",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "Jesse Hall"
+}
